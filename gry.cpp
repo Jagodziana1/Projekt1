@@ -1,13 +1,26 @@
- #include <iostream>
+#include <iostream>
 #include <string>
+#include <ctime>
+#include <cstdlib>
 
 using namespace std;
 
 
 int main()
 {
-    string slowo = "komputer";
-    string zakryte = "________";
+    srand (time(0));
+
+    string slowa[4] =
+    {
+        "informatyka"
+        "kotek"
+        "mieszkanie"
+        "papuga"
+    };
+    int indeks = rand() % 4;
+    string slowo = slowa[indeks];
+
+    string zakryte = "";
 
     char litera;
 
@@ -16,6 +29,7 @@ int main()
 
     while (zakryte != slowo && bledy < maxBledow)
     {
+
         cout << "\nSlowo:" << zakryte << endl;
         cout << "pozostalo prob:" << maxBledow - bledy << endl;
 
@@ -40,8 +54,18 @@ int main()
         {
             cout << "Nie ma takiej litery... ";
             bledy++;
+
         }
 
 
     }
+    if (zakryte==slowo){
+        cout << "Brawo wygrales!!\n";
+        cout << "Haslo:" << slowo << endl;
+    }
+    else{
+        cout << "\nNiestety przegrales...";
+        cout << "Haslo:" << slowo << endl;
+    }
+    return 0;
 }
