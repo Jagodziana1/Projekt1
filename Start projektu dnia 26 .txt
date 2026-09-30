@@ -1,0 +1,23 @@
+Start projektu dnia 26.05.2026
+2 czerwca:
+Zaczêlam robiæ program w C++. Zdecydowalam na stworzenie wisielca, czyli losowanie has³a i wpisywanie liter. Zrobi³am te¿ sprawdzanie, czy podana litera znajduje siê w haœle. Bylam niepewna kilku rzeczy , wiêc sprawdzilam czy mam je dobrze w chatGPT.
+9 czerwca:
+Wróci³am do programu i zaczê³am poprawiaæ wczeœniejsze rzeczy. Doda³am liczenie b³êdów i trochê zmieni³am pêtlê, ¿eby gra dzia³a³a poprawnie. Przy okazji wysz³o kilka b³êdów, wiêc musia³am trochê pozmieniaæ kod. Pomaga³am sobie wtedy chatGPT i gemini.
+10 czerwca:
+Robi³am dalej wisielca. Zajê³am siê tym, ¿eby po ka¿dym b³êdzie rysowa³a siê kolejna czêœæ wisielca. Poprawi³am te¿ kilka napisów, które wyœwietlaj¹ siê podczas gry. Duzo czasu zesz³o mi na sprawdzaniu, czy wszystko siê zgadza. Zaczelam pisac tez kod, który bêdzie bêdzie wyswietlal napisy po tym jak gracz poda literki.
+15 czerwca:
+Zaczê³am robiæ planszê do gry, ¿eby program by³ trochê bardziej rozbudowany. Zrobi³am tablicê 5 na 5 i zaczê³am j¹ wyœwietlaæ w grze. Jest to dla mnie rzecz, której nie rozumialam w 100% wiêc uzylam pomocy chataGPT do napisania tablicy dwuwymiarowej.
+16 czerwca:
+Dzisiaj robi³am g³ównie poruszanie siê po planszy.  Doda³am pionek @ i sterowanie WASD. Musia³am te¿ zrobiæ tak, zeby nie mo¿na by³o wyjechaæ poza planszê.  Kilka razy zmienia³am kod, bo na pocz¹tku nie dzia³a³o to tak jak chcia³am.
+17 czerwca:
+Po³¹czy³am planszê z reszt¹ programu. Doda³am losowe litery na planszy i sprawdzanie, czy pionek wejdzie na pole z liter¹. Nie wszystko od razu dzia³a³o, wiêc poprawia³am wczeœniejsze fragmenty. Korzysta³am te¿ z gemini, ¿eby znaleŸæ niektóre b³êdy.
+21 wrzeœnia:
+Po wakacjach wróci³am do projektu. Najpierw sprawdzilam, co ju¿ dzia³a, a co jeszcze trzeba poprawiæ. Poprawi³am trochê poruszanie pionkiem i kilka rzeczy zwi¹zanych z plansz¹. Doda³am te¿ instrukcje,  zwi¹zane z tym jakie klawisze trzeba naciskaæ.
+23 wrzeœnia:
+Doda³am punkty i liczenie ruchów. Zrobi³am te¿ kilka rund, ¿eby po skoñczeniu jednego has³a mo¿na by³o graæ dalej. W tym dniu sporo zmienia³am w kodzie, bo nowe rzeczy trzeba by³o po³¹czyæ z tym, co zrobi³am wczeœniej.
+25 wrzeœnia:
+Zajê³am siê literami na planszy. Chcia³am, ¿eby po wejœciu na literê by³a ona sprawdzana, a póŸniej znika³a i pojawia³a siê nowa. Doda³am funkcjê dodajNowaLitere(). Przy tym fragmencie korzysta³am trochê z chatGPT, bo mia³am problem z tym, gdzie dok³adnie j¹ wywolaæ.
+27 wrzeœnia:
+Dzisiaj g³ównie testowa³am program. Sprawdza³am, czy dobrze dzia³aj¹ litery, punkty, b³êdy i poruszanie pionkiem. Podczas testowania znalaz³am jeszcze kilka rzeczy do poprawienia, wiêc znowu trochê zmienia³am kod.
+30 wrzeœnia:
+Dzisiaj skoñczy³am program. Sprawdzi³am jeszcze raz wszystkie najwa¿niejsze rzeczy, czyli planszê 5na5, pionek, litery, punkty, wisielca i rundy. Poprawi³am ostatnie b³êdy i teraz program dzia³a tak, jak chcialam. Dopiero dzisiaj, zapisalam wszystko co robilam od 15 czerwca w githubie, poniewa¿ do teraz zapisywalam osobno w code blocks i word. Jeszcze jutro chce naprawic maly bl¹d, który zuwazylam.
